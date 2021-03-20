@@ -8,8 +8,8 @@ const message = document.querySelector('#msg');
 
 if (velikonoce === true) {
   message.textContent = 'ANO';
-  message.className += '.msg--valid';
+  message.className += ' .msg--valid';
 } else {
   message.textContent = 'NE';
-  message.className += '.msg--invalid';
+  message.className += ' .msg--invalid';
 }
